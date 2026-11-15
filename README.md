@@ -4,8 +4,7 @@ A small event streaming system, modeled on Kafka: an append-only log split into
 segment files, consumers that track their own position, and a TCP server that
 speaks a simple length-prefixed text protocol.
 
-Built as Project 5 of a systems engineering curriculum, after a multithreaded
-downloader, an async reverse proxy, a Redis-backed job queue, and a Redis clone.
+Built after a multithreaded downloader, an async reverse proxy, a Redis-backed job queue, and a Redis clone.
 
 ## What it does
 
